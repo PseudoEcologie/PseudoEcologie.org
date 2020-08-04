@@ -1,5 +1,7 @@
 # NEF : Un site de vulgarisation contre l'écologie de facade
 
+**Attention :** Ce projet n'est pour l'instant qu'à l'état de brouillon. Seul un squelette basique du design est disponible.
+
 ## Table des matières
 
 * [Manifeste : Non à l'écologie de facade !]()
@@ -30,4 +32,26 @@ En cours d'écriture...
 
 ## Installer le site localement
 
-En cours d'écriture...
+### 1. Installer NodeJS et NPM
+
+#### Windows
+[Télécharger la version Current](https://nodejs.org/) et cocher "Install the necessary tools" durant l'installation.
+
+#### Linux
+`sudo apt install nodejs` pour la dernière version d'Ubuntu. [Autres distributions.](https://nodejs.org/en/download/package-manager/)
+
+#### macOS
+[Installer la version Current.](https://nodejs.org/)
+
+### 2. Préparer le dépôt
+
+1. `git clone https://github.com/gamedevalliance/fairedesjeux.fr`
+2. `cd fairedesjeux.fr`
+3. (`sudo`) `npm install` pour télécharger les dépendances dans le dossier.
+4. (`sudo`) `npm install --global @gridsome/cli` pour installer Gridsome CLI.
+
+Pour une marche à suivre plus détaillée et accessible aux néophytes, lisez le [guide du site](https://fairedesjeux.fr/contribuer/comment-contribuer/installer-le-site/).
+
+### 3. Démarrer un serveur local
+
+`gridsome develop` démarre un serveur local à l'adresse `localhost:8080` pour voir vos changements en direct alors que vous travaillez.

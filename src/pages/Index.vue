@@ -1,33 +1,97 @@
 <template>
-  <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
-  </Layout>
+    <Layout>
+        <!-- Thêmes -->
+        <div class="max-w-content mx-auto p-2">
+            <h2 class="my-2">
+                Les dossiers
+            </h2>
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-1/3 p-2">
+                    <div class="h-200 bg-primary rounded-lg relative">
+                        <h3 class="absolute bottom-0 px-3 title-card">
+                            Quelle énergie ?
+                        </h3>
+                    </div>
+                </div>
+                <div class="w-1/3 p-2">
+                    <div class="h-200 bg-secondary rounded-lg relative">
+                        <h3 class="absolute bottom-0 px-3 title-card">
+                            Qui polluent ?
+                        </h3>
+                    </div>
+                </div>
+                <div class="w-1/3 p-2">
+                    <div class="h-200 bg-tertiary rounded-lg relative">
+                        <h3 class="absolute bottom-0 px-3 title-card">
+                            Sources de pollution
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Actualités -->
+        <div class="max-w-content mx-auto p-2">
+            <h2 class="my-2">
+                Les actualités
+            </h2>
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-1/2 p-2">
+                    <div class="bg-area rounded-lg px-4 py-3">
+                        <h3 class="mt-2">
+                            Ceci est un test
+                        </h3>
+                        <p>
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                            <br />
+                            <a>Lire la suite.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="w-1/2 p-2">
+                    <div class="bg-area rounded-lg px-4 py-3">
+                        <h3 class="mt-2">
+                            Ceci est un test
+                        </h3>
+                        <p>
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                            <br />
+                            <a>Lire la suite.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="w-1/2 p-2">
+                    <div class="bg-area rounded-lg px-4 py-3">
+                        <h3 class="mt-2">
+                            Ceci est un test
+                        </h3>
+                        <p>
+                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                            <br />
+                            <a>Lire la suite.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-area w-full">
+            <div class="max-w-content mx-auto p-2">
+                <h2 class="my-2">
+                    A propos
+                </h2>
+                <ul>
+                    <li>Manifeste</li>
+                    <li>Comment contribuer</li>
+                    <li>Listes des contributeurs</li>
+                    <li>Code source</li>
+                </ul>
+            </div>
+        </div>
+    </Layout>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
-</script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
+<style lang="postcss">
+    .title-card {
+        text-shadow: 2px 2px #232530, 0 0 2px #232530;
+        color: #fdf0ed;
+    }
 </style>

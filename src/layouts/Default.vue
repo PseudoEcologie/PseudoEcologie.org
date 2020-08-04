@@ -1,17 +1,27 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
+    <div>
+        <Header />
+        <transition name="slide" appear>
+            <main>
+                <slot></slot>
+            </main>
+        </transition>
+    </div>
 </template>
+
+<style scoped>
+    .slide-enter-active {
+        transition: all 0.5s cubic-bezier(0.14, 0.74, 0, 0.98);
+    }
+
+    .slide-enter {
+        transform: translateY(50%);
+    }
+
+    html {
+        height: 100%;
+    }
+</style>
 
 <static-query>
 query {
@@ -21,30 +31,16 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
+<script>
+    import Header from './components/Header.vue';
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+    export default {
+        components: {
+            Header,
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>
+        },
+        metaInfo: {
+            title: 'Goulven CLEC\'H, web developer in Toulouse',
+        },
+    };
+</script>
