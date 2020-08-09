@@ -90,8 +90,8 @@ module.exports = {
                     fontFamily: config('theme.fontFamily.body'),
                     fontSize: config('theme.fontSize.base'),
                     lineHeight: '1.5',
-                    marginTop: '1rem',
-                    marginBottom: '1rem',
+                    marginTop: '0.5rem',
+                    marginBottom: '0.5rem',
                 },
 
                 a: {

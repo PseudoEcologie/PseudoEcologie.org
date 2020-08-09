@@ -27,7 +27,33 @@ module.exports = {
             },
         },
     },
-    templates: {},
+    plugins: [
+        /* Je vais chercher les fichiers markdowns pour créer les différents posts */
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Theme',
+                path: 'content/themes/*.md',
+            },
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Article',
+                path: 'content/articles/*.md',
+            },
 
-    plugins: [],
+        },
+    ],
+    templates: {
+        /* J'attribue un path URL et un template Vue différent en fonction du type de post */
+        Theme: [{
+            path: '/:slug',
+            component: './src/templates/Theme.vue',
+        }],
+        Article: [{
+            path: '/articles/:slug',
+            component: './src/templates/Article.vue',
+        }],
+    },
 };

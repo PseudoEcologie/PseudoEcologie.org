@@ -29,45 +29,27 @@
                 </div>
             </div>
         </div>
-        <!-- Actualités -->
+        <!-- Articles -->
         <div class="max-w-content mx-auto p-2">
             <h2 class="my-2">
-                Les actualités
+                Les articles
             </h2>
             <div class="flex flex-wrap -mx-2">
-                <div class="w-1/2 p-2">
+                <div v-for="article in $page.articles.edges"
+                     :key="article.node.title"
+                     class="w-1/2 p-2"
+                >
                     <div class="bg-area rounded-lg px-4 py-3">
                         <h3 class="mt-2">
-                            Ceci est un test
+                            {{ article.node.title }}
                         </h3>
                         <p>
-                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                            <br />
-                            <a>Lire la suite.</a>
+                            {{ article.node.description }}
                         </p>
-                    </div>
-                </div>
-                <div class="w-1/2 p-2">
-                    <div class="bg-area rounded-lg px-4 py-3">
-                        <h3 class="mt-2">
-                            Ceci est un test
-                        </h3>
                         <p>
-                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                            <br />
-                            <a>Lire la suite.</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="w-1/2 p-2">
-                    <div class="bg-area rounded-lg px-4 py-3">
-                        <h3 class="mt-2">
-                            Ceci est un test
-                        </h3>
-                        <p>
-                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-                            <br />
-                            <a>Lire la suite.</a>
+                            <g-link :to="article.node.path">
+                                Lire la suite.
+                            </g-link>
                         </p>
                     </div>
                 </div>
@@ -95,3 +77,18 @@
         color: #fdf0ed;
     }
 </style>
+
+<page-query>
+    query {
+        articles: allArticle(sortBy: "date", order: ASC) {
+            edges {
+                node {
+                    title
+                    date
+                    path
+                    description
+                }
+            }
+        }
+    }
+</page-query>

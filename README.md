@@ -1,12 +1,14 @@
-# NEF : Un site de vulgarisation contre l'écologie de facade
+# Pseudo-écologie.org
+
+Un site de vulgarisation contre l'écologie de facade
 
 **Attention :** Ce projet n'est pour l'instant qu'à l'état de brouillon. Seul un squelette basique du design est disponible.
 
 ## Table des matières
 
-* [Manifeste : Non à l'écologie de facade !]()
-* [Contribuer au site]()
-* [Installer le site localement]()
+* [Manifeste : Non à l'écologie de facade !](#manifeste--non-%C3%A0-l%C3%A9cologie-de-facade-)
+* [Contribuer au site](#contribuer-au-site)
+* [Installer le site localement](#installer-le-site-localement)
 
 ## Manifeste : Non à l'écologie de facade !
 
@@ -32,26 +34,25 @@ En cours d'écriture...
 
 ## Installer le site localement
 
-### 1. Installer NodeJS et NPM
+Si vous souhaitez voir en direct sur le site vos modifications avant de les publier ou tout simplement modifier le site directement depuis votre éditeur de code plutôt que via l'interface Github, vous aurez besoin d'installer le site sur votre ordinateur. Voici la démarche à suivre.
 
-#### Windows
-[Télécharger la version Current](https://nodejs.org/) et cocher "Install the necessary tools" durant l'installation.
+### 1. Dépendances
 
-#### Linux
-`sudo apt install nodejs` pour la dernière version d'Ubuntu. [Autres distributions.](https://nodejs.org/en/download/package-manager/)
-
-#### macOS
-[Installer la version Current.](https://nodejs.org/)
+Le site nécéssite l'installation de [NodeJS](https://nodejs.org/) (NPM) et [Git]().
 
 ### 2. Préparer le dépôt
 
-1. `git clone https://github.com/gamedevalliance/fairedesjeux.fr`
-2. `cd fairedesjeux.fr`
-3. (`sudo`) `npm install` pour télécharger les dépendances dans le dossier.
-4. (`sudo`) `npm install --global @gridsome/cli` pour installer Gridsome CLI.
+A l'aide d'un terminal :
 
-Pour une marche à suivre plus détaillée et accessible aux néophytes, lisez le [guide du site](https://fairedesjeux.fr/contribuer/comment-contribuer/installer-le-site/).
+1. `git clone https://github.com/GoulvenC/pseudo-ecologie.org` pour cloner le dépôt.
+2. `cd Pseudo-ecologie.org` pour ouvrir le dossier que vous venez de télécharger.
+3. (`sudo`) `npm install` pour télécharger les dépendances NodeJS du projet.
+4. (`sudo`) `npm install --global @gridsome/cli` pour installer Gridsome CLI.
 
 ### 3. Démarrer un serveur local
 
-`gridsome develop` démarre un serveur local à l'adresse `localhost:8080` pour voir vos changements en direct alors que vous travaillez.
+`gridsome develop` démarre un serveur local à l'adresse `localhost:8080` pour voir vos changements en direct alors que vous travaillez. Vous pouvez également utiliser l'adresse`votre-adresse-ip:8080` pour voir les changements depuis un autre appareil (comme votre téléphone), et l'adresse `localhost:8080/___explore` pour consulter les données GraphQL.
+
+### 4. Bonus : Ayez du style
+
+Si vous utilisez un éditeur de code moderne, nous vous invitons chaleuresement à télécharger les extensions `lint`, `eslint` et `linter` qui permettent de s'assurer que tout le monde utilise les mêmes conventions de style pour leur code. Les fichiers de configurations se trouvent à la base du projet et sont chargés automatiquement par les extensions.
