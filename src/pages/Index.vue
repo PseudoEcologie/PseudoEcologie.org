@@ -7,23 +7,34 @@
             </h2>
             <div class="flex flex-wrap -mx-2">
                 <div class="w-1/3 p-2">
-                    <div class="h-200 bg-primary rounded-lg relative">
-                        <h3 class="absolute bottom-0 px-3 title-card">
-                            Quelle énergie ?
-                        </h3>
-                    </div>
+                    <g-link to="/sources-pollution"
+                            class="hotspot"
+                    >
+                        <div class="h-200 bg-primary rounded-lg relative">
+                            <h3 class="absolute bottom-0 px-3 title-card">
+                                Sources de pollution
+                            </h3>
+                        </div>
+                    </g-link>
                 </div>
                 <div class="w-1/3 p-2">
                     <div class="h-200 bg-secondary rounded-lg relative">
                         <h3 class="absolute bottom-0 px-3 title-card">
-                            Qui polluent ?
+                            Qui pollue ?
                         </h3>
                     </div>
                 </div>
                 <div class="w-1/3 p-2">
                     <div class="h-200 bg-tertiary rounded-lg relative">
                         <h3 class="absolute bottom-0 px-3 title-card">
-                            Sources de pollution
+                            Energie
+                        </h3>
+                    </div>
+                </div>
+                <div class="w-1/3 p-2">
+                    <div class="h-200 bg-quaternary rounded-lg relative">
+                        <h3 class="absolute bottom-0 px-3 title-card">
+                            Transport
                         </h3>
                     </div>
                 </div>
@@ -40,9 +51,11 @@
                      class="w-1/2 p-2"
                 >
                     <div class="bg-area rounded-lg px-4 py-3">
-                        <h3 class="mt-2">
-                            {{ article.node.title }}
-                        </h3>
+                        <g-link :to="article.node.path">
+                            <h3 class="mt-2">
+                                {{ article.node.title }}
+                            </h3>
+                        </g-link>
                         <p>
                             {{ article.node.description }}
                         </p>
