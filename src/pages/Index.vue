@@ -5,6 +5,12 @@
             <h2 class="my-2">
                 Les dossiers
             </h2>
+            <BarChart
+                labels="Ceci est un test"
+                data="[234, 266, 273]"
+                title="Cumulative Cases"
+                color="green"
+            />
             <div class="flex flex-wrap -mx-2">
                 <div class="w-1/3 p-2">
                     <g-link to="/sources-pollution"
@@ -83,6 +89,22 @@
         </div>
     </Layout>
 </template>
+
+<script>
+    import BarChart from '~/charts/BarChart.vue';
+
+    export default {
+        components: {
+            BarChart,
+        },
+        data() {
+            return {
+                countryHistory: null,
+                countryNow: null,
+            };
+        },
+    };
+</script>
 
 <style lang="postcss">
     .title-card {

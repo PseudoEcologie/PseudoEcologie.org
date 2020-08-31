@@ -6,7 +6,6 @@ import 'typeface-source-code-pro';
 import 'typeface-source-sans-pro';
 import 'typeface-muli';
 
-
 // Font-Awesome
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { config, library } from '@fortawesome/fontawesome-svg-core';
