@@ -1,0 +1,15 @@
+{
+  "name": "pseudoecologie.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GoulvenC/NEF",
+  "author": "Goulven Nev <nevilain@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
