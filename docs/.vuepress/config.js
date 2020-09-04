@@ -12,6 +12,7 @@ module.exports = {
         { text: 'Manifeste', link: '/manifeste/' },
         { text: 'Dossiers', link: '/dossiers/' },
         { text: 'Articles', link: '/articles/' },
+        { text: 'Données', link: '/data/' },
         { text: 'Contribuer', link: '/contribuer/' },
       ],
       sidebar: {
@@ -39,6 +40,21 @@ module.exports = {
             children: [
               '/dossiers/pollution.html',
               '/dossiers/source-energie.html',
+            ]
+          },
+        ],
+        '/data/': [
+          {
+            title: 'Toutes les données',
+            path: '/data/',
+            collapsable: false,
+          },
+          {
+            title: 'Monde',
+            collapsable: true,
+            // Utiliser l'adresse complète, et non le permalink.
+            children: [
+              '/data/Monde-giec-co2elec-2014.html',
             ]
           },
         ],
