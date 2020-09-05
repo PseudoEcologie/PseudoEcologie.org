@@ -16,13 +16,13 @@
           {
             barThickness: 25,
             backgroundColor:  [
-              '#232530', // charbon
-              '#DC3318', // gaz
-              '#F6661E', // biomasse
+              '#6C6F93', // charbon
+              '#E95678', // gaz
+              '#FBC3A7', // biomasse
               '#FAB795', // solaire domestique
               '#FBC3A7', // solaire centrale
               '#59E3E3', // hydraulique
-              '#F075B7', // éolien
+              '#EE64AE', // éolien
               '#29D398', // nucléaire
               '#F075B7', // éolien offshore
               ],
@@ -44,7 +44,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Emissions des moyens de production d\'électricité','(médiane mondiale, GIEC, 2014)'],
+          text: ['Emissions de GES par kWh produit','(geCO2/kWh par moyen, médiane mondiale, GIEC, 2014)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -73,7 +73,9 @@ Change. Contribution of Working Group III to the Fifth Assessment Report of the 
 Change [Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K. Seyboth, A. Adler, I. Baum, S. Brunner, P.
 Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel and J.C. Minx (eds.)]. Cambridge University
 Press, Cambridge, United Kingdom and New York, NY, USA.</a> Page 1335.</p>
-    <p><strong>Description:</strong> Il s'agit d'une analyse des émissions gaz à effet de serre, prenant en compte l'ensemble du cycle de vie (de la construction au démentelement) puis exprimé en grammes d'equivalent C02 émis par kilowattheure produit. La valeur conservée pour ce graphique est la médiane mondiale calculée par le GIEC pour chaque moyen de production. Les données sont classées par ordre décroissant.</p>
+    <p><strong>Description:</strong> 
+      graphique en barres horizontales représentant les émissions de gaz à effets de serre (exprimées en grammes d'équivalent CO2) par moyen de production d'électricité (ayant une part significative). Les données sont les médianes mondiales, rangées par ordre décroissant de haut en bas. 
+    </p>
     </details>
   </div>
 </template>

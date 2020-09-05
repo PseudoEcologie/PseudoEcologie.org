@@ -54,7 +54,17 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/data/Monde-giec-co2elec-2014.html',
+              '/data/monde/giec-geskwh-2014.html',
+              '/data/monde/iea-gwhans-1990-2017.html',
+              '/data/monde/iea-ktepans-1990-2017.html',
+            ]
+          },
+          {
+            title: 'France',
+            collapsable: true,
+            // Utiliser l'adresse complète, et non le permalink.
+            children: [
+              '/data/france/iea-gwhans-1990-2018.html',
             ]
           },
         ],
