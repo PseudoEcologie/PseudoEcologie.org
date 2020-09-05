@@ -1,6 +1,8 @@
 # Pseudo-écologie.org
 
-Un site de vulgarisation contre l'écologie de facade
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e36d62b9-f715-41e5-8284-c5eeac286443/deploy-status)](https://app.netlify.com/sites/quizzical-raman-0243e2/deploys)
+
+Un site de vulgarisation contre l'écologie de facade. 
 
 **Attention :** Ce projet n'est pour l'instant qu'à l'état de brouillon. Seul un squelette basique du design est disponible.
 
