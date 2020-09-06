@@ -64,6 +64,7 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
+              '/data/france/citepa-co2secteurs-1990-2018.html',
               '/data/france/iea-gwhans-1990-2018.html',
               '/data/france/iea-ktepans-1990-2018.html',
             ]
