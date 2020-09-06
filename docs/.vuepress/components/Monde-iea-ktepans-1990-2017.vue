@@ -9,7 +9,7 @@
               borderColor: '#2E303E',
               backgroundColor: 'rgb(46, 48, 62, 0.9)',
               fill: true
-            }, { 
+            },{ 
               data: [2220466,2207265,2316665,2994438,3653106,3852538],
               label: 'Charbon',
               borderColor: '#6C6F93',
