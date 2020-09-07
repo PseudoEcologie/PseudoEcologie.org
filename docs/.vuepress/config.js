@@ -54,10 +54,11 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/data/monde/giec-geskwh-2014.html',
-              '/data/monde/iea-gwhans-1990-2017.html',
-              '/data/monde/iea-ktepans-1990-2017.html',
-              '/data/monde/pe-ktepchange-1990-2017.html',
+              '/data/monde/giec-co2secteurs.html',
+              '/data/monde/giec-geskwh.html',
+              '/data/monde/iea-gwhans.html',
+              '/data/monde/iea-ktepans.html',
+              '/data/monde/pe-ktepchange.html',
             ]
           },
           {
@@ -65,9 +66,9 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/data/france/citepa-co2secteurs-1990-2018.html',
-              '/data/france/iea-gwhans-1990-2018.html',
-              '/data/france/iea-ktepans-1990-2018.html',
+              '/data/france/citepa-co2secteurs.html',
+              '/data/france/iea-gwhans.html',
+              '/data/france/iea-ktepans.html',
             ]
           },
         ],
