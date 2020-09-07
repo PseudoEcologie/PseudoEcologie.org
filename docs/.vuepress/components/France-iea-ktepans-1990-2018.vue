@@ -65,9 +65,9 @@
       }"
     />
     <details>
-      <p><strong>Source:</strong> <a rel="noopener noreferrer" target="_blank" href="https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_annex-iii.pdf">
-        https://www.iea.org/data-and-statistics
-      </a> Energy topic: Energy supply. Indicator: Total primary energy supply (TPES) by source. Country or region: France. </p>
+      <p><strong>Source:</strong> <a rel="noopener noreferrer" target="_blank" href="https://www.iea.org/data-and-statistics">
+        International Energy Agency
+      </a>. Energy topic: Energy supply. Indicator: Total primary energy supply (TPES) by source. Country or region: France. </p>
       <p><strong>Description:</strong>
         graphique représentant la quantité d'énergie produite (exprimée en kilotonnes équivalent pétrole) par source d'énergie (ayant une part significative) en France, par année entre 1990 et 2017. Les données sont rangées par ordre croissant de haut en bas.
       </p>

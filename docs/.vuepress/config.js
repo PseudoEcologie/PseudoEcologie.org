@@ -57,6 +57,7 @@ module.exports = {
               '/data/monde/giec-geskwh-2014.html',
               '/data/monde/iea-gwhans-1990-2017.html',
               '/data/monde/iea-ktepans-1990-2017.html',
+              '/data/monde/pe-ktepchange-1990-2017.html',
             ]
           },
           {
