@@ -45,7 +45,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'énergie par source','(kT équivalent pétrole par année, France, IEA, 1990-2018)'],
+          text: ['Production d\'énergie par source','(kT équivalent pétrole par année, France, IEA, 1990-2017)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
