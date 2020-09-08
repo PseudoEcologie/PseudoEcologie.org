@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import DoughnutChart from "./DoughnutChart.js";
+import DoughnutChart from "../../DoughnutChart.js";
 
 export default {
   components: {

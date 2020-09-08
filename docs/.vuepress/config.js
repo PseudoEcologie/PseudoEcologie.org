@@ -54,11 +54,9 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/data/monde/giec-co2secteurs.html',
-              '/data/monde/giec-geskwh.html',
-              '/data/monde/iea-gwhans.html',
-              '/data/monde/iea-ktepans.html',
-              '/data/monde/pe-ktepchange.html',
+              '/data/monde/emission-ges.html',
+              '/data/monde/production-electricite.html',
+              '/data/monde/production-energie.html',
             ]
           },
           {
@@ -66,9 +64,9 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/data/france/citepa-co2secteurs.html',
-              '/data/france/iea-gwhans.html',
-              '/data/france/iea-ktepans.html',
+              '/data/france/emission-ges.html',
+              '/data/france/production-electricite.html',
+              '/data/france/production-energie.html',
             ]
           },
         ],

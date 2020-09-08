@@ -88,7 +88,7 @@
 </template>
 
 <script>
-import LineChart from "./LineChart.js";
+import LineChart from "../../LineChart.js";
 
 export default {
   components: {

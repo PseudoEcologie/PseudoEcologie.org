@@ -1,9 +1,13 @@
-# Production d'électricité par source
+# Production d'énergie
 
-## 1990 à 2017
+## par source
 
 ::: warning
 Graphique en cours de réalisation. Seules les données quinquénales de 1990 à 2015 sont actuellement disponibles.
 :::
 
-<Monde-iea-gwhans-1990-2017 />
+<Monde-ProdEner-Sources />
+
+## évolution
+
+<Monde-ProdEner-Evolution />

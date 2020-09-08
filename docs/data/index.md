@@ -15,12 +15,10 @@ Nullam vestibulum turpis eros, a efficitur nibh imperdiet non. Cras felis nisl, 
 ## Index
 
 * Monde
-  * [Emissions de GES par secteurs](/data/monde/giec-co2secteurs.html)
-  * [Emissions des moyens de production d'électricité](/data/monde/giec-geskwh.html)
-  * [Production d'électricité par source](/data/monde/iea-gwhans.html)
-  * [Production d'énergie par source](/data/monde/iea-ktepans.html)
-  * [Production d'énergie par source - évolution](/data/monde/pe-ktepchange.html)
+  * [Emissions de GES](/data/monde/emission-ges.html)
+  * [Production d'electricité](/data/monde/production-electricite.html)
+  * [Production d'énergie](/data/monde/production-energie.html)
 * France
-  * [Emissions de GES par secteurs](/data/france/citepa-co2secteurs.html)
-  * [Production d'électricité par source](/data/france/iea-gwhans.html)
-  * [Production d'énergie par source](/data/france/iea-ktepans.html)
+  * [Emissions de GES](/data/france/emission-ges.html)
+  * [Production d'électricité](/data/france/production-electricite.html)
+  * [Production d'énergie](/data/france/production-energie.html)

@@ -81,7 +81,7 @@ Press, Cambridge, United Kingdom and New York, NY, USA.</a> Page 1335.</p>
 </template>
 
 <script>
-import HbarChart from "./HbarChart.js";
+import HbarChart from "../../HbarChart.js";
 
 export default {
   components: {

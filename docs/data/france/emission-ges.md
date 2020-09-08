@@ -1,9 +1,9 @@
-# Emissions de GES par secteurs
+# Emission de GES
 
-## 1990 vs 2018
+## par secteurs
 
 ::: warning
 Manque les annotations avec les années (je dois ajouter le plugin). 1990 est à l'intérieur, 2018 à l'extérieur.
 :::
 
-<France-citepa-co2secteurs-1990-2018 />
+<France-EmissionGes-Secteurs />
