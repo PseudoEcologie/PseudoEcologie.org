@@ -1,16 +1,10 @@
 # Toutes les données
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus venenatis lobortis. Nam ac viverra diam. Sed imperdiet lectus tempus enim scelerisque tincidunt. Quisque nec commodo elit. Vivamus eget mauris lobortis augue commodo tincidunt. Vivamus molestie sollicitudin orci, a varius leo euismod quis. Nulla dictum arcu cursus vulputate fringilla. Maecenas posuere justo nibh, sed luctus sem viverra eget. Aenean ut lorem vitae purus venenatis tempus. In auctor, turpis ac pharetra venenatis, lacus felis tincidunt massa, et egestas magna quam nec mauris.
+Vous recherchez désespérément une donnée ? Vous avez oublié sur quel site ou dans quel articles vous aviez lu une statistique ? Pas de panique, ce portail est fait pour vous.
 
-## Sources
+Ici, vous pourrez trouver tous les graphiques que nous utilisons pour illustrer nos [articles](/articles/) et nos [dossiers](/dossiers/), classés par zones géographiques (exemple : `Monde` ou `France`) et par thèmes (exemple : `Emissions de GES` ou `Sécurité et mortalité`). Vous pouvez en consulter les sources, obtenir une description ou lire des éventuelles notes associés en cliquant sur le bouton `détails` en dessous de chaque article.
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ultrices velit ut pulvinar pulvinar. Cras ut libero sem. Proin urna velit, placerat ac tempor quis, maximus sed elit. Morbi tincidunt felis at enim aliquam dapibus. Sed id dui eu odio imperdiet feugiat. Etiam posuere dignissim sem gravida lobortis. Maecenas vel commodo lacus.
-
-Nullam vestibulum turpis eros, a efficitur nibh imperdiet non. Cras felis nisl, tempor sit amet felis feugiat, pellentesque tristique nibh. Phasellus tempor fermentum nunc, id varius dolor auctor nec. Vestibulum maximus fringilla ex quis tempus. Etiam velit ligula, feugiat vitae mi nec, laoreet facilisis arcu. Quisque tincidunt arcu mi, in commodo metus ornare a. Etiam rutrum faucibus maximus.
-
-## Conventions
-
-Nullam vestibulum turpis eros, a efficitur nibh imperdiet non. Cras felis nisl, tempor sit amet felis feugiat, pellentesque tristique nibh. Phasellus tempor fermentum nunc, id varius dolor auctor nec. Vestibulum maximus fringilla ex quis tempus. Etiam velit ligula, feugiat vitae mi nec, laoreet facilisis arcu. Quisque tincidunt arcu mi, in commodo metus ornare a. Etiam rutrum faucibus maximus.
+N'hésitez pas à réutiliser ces graphiques pour vos propres projets, ou à nous aider à actualiser et enrichir cette base de données en [contribuant](/contribuer/).
 
 ## Index
 
@@ -18,6 +12,7 @@ Nullam vestibulum turpis eros, a efficitur nibh imperdiet non. Cras felis nisl, 
   * [Emissions de GES](/data/monde/emission-ges.html)
   * [Production d'electricité](/data/monde/production-electricite.html)
   * [Production d'énergie](/data/monde/production-energie.html)
+  * [Sécurité et mortalité](/data/monde/securite.html)
 * France
   * [Emissions de GES](/data/france/emission-ges.html)
   * [Production d'électricité](/data/france/production-electricite.html)
