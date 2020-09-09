@@ -27,7 +27,7 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/articles/2020-energie.html',
+              '/articles/article-exemple.html',
             ]
           },
         ],
@@ -38,8 +38,8 @@ module.exports = {
             collapsable: false,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
-              '/dossiers/pollution.html',
-              '/dossiers/source-energie.html',
+              '/dossiers/dossier-exemple.html',
+              '/dossiers/dossier-exemple1.html',
             ]
           },
         ],
@@ -57,6 +57,7 @@ module.exports = {
               '/data/monde/emission-ges.html',
               '/data/monde/production-electricite.html',
               '/data/monde/production-energie.html',
+              '/data/monde/securite.html',
             ]
           },
           {

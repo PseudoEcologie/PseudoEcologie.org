@@ -4,6 +4,7 @@
       :chartData="{
         labels: [
           'Charbon', 
+          'Pétrole', 
           'Gaz', 
           'Biomasse', 
           'Solaire domestique', 
@@ -17,6 +18,7 @@
             barThickness: 25,
             backgroundColor:  [
               '#6C6F93', // charbon
+              '#2E303E', // charbon
               '#E95678', // gaz
               '#FBC3A7', // biomasse
               '#FAB795', // solaire domestique
@@ -28,6 +30,7 @@
               ],
             data: [
               820, // charbon 
+              715, // charbon 
               490, // gaz
               230, // biomasse
               41, // solaire domestique
