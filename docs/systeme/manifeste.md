@@ -4,6 +4,10 @@ permalink: /manifeste
 
 # Manifeste
 
+::: warning Attention
+Le manifeste définitif est encore en cours de rédaction. Vous lisez un premier jet qui sera sans doute modifié à la sortie publique du site.
+:::
+
 Durant ces dernières années, le travail acharné de nombreux scientifiques et militants écologistes ont fait du réchauffement climatique (et des enjeux environnementaux) une préoccupation politique centrale dans le monde entier.
 
 Malheureusement, cette victoire a été accompagnée par le développement de discours pseudo-écologique chez les politiciens et les entreprises. Ces discours se basent sur des idées préconcues ou sur l'inquiétude des populations, et visent pour leurs auteurs à améliorer leur image, vendre un produit ou gagner des voix par exemple. Aujourd'hui, ces discours polluent complètement la sphère médiatique : focalisant les débats politiques sur des sujets mineurs plutôt que les enjeux réels, empêchant les citoyens de bien comprendre ou de distinguer une vraie information d'une fausse, voir permettant de justifier des politiques réactionnaires et contre-productives.
