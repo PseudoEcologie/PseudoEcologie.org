@@ -5,7 +5,7 @@ heroText: PseudoEcologie.org
 tagline: Un site pour se former aux questions écologiques et lutter contre les discours antisciences et le greenwashing.
 actionText: Lire le manifeste →
 actionLink: /manifeste/
-footer: MIT Licensed | Fondé en 2020 par Goulven CLEC'H
+footer:  CC BY 4.0 | 2020 - Goulven CLEC'H
 ---
 
 ## Dossiers

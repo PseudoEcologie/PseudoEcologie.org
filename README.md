@@ -2,9 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e36d62b9-f715-41e5-8284-c5eeac286443/deploy-status)](https://app.netlify.com/sites/quizzical-raman-0243e2/deploys) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
- Un site pour se former aux questions écologiques et lutter contre les discours antisciences et le greenwashing.
- 
- Propulsé par [VuePress](https://vuepress.vuejs.org/) et [Netlify](https://www.netlify.com/). Contenu sous [licence Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Un site pour se former aux questions écologiques et lutter contre les discours antisciences et le greenwashing.
+
+Propulsé par [VuePress](https://vuepress.vuejs.org/) et [Netlify](https://www.netlify.com/). Contenu sous [licence Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Lien utiles
 
@@ -12,7 +12,6 @@
 * [Contribuer au site](https://pseudoecologie.org/contribuer/)
 
 ## Installer le site
-
 
 ### 1. Dépendances
 
