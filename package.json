@@ -6,6 +6,7 @@
   "author": "Goulven Nev <nevilain@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@markspec/vuepress-plugin-footnote": "^1.1.2",
     "@vuepress/plugin-search": "^1.5.4",
     "vuepress": "^1.5.4"
   },
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "chart.js": "^2.9.3",
+    "markdown-it-footnote": "^3.0.2",
     "vue-chartjs": "^3.5.1"
   }
 }

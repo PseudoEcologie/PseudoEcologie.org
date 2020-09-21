@@ -1,3 +1,5 @@
 # Tout les articles
 
-Ici vous trouverez des ressources suplémentaires explicitant certains sujets ou répondant à des problématiques d'actualités.
+::: warning C'est vide...
+Aucun article n'a été publié pour le moment. N'hésitez pas à [contribuer](/contribuer/) !
+:::

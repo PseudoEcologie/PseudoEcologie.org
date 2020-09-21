@@ -10,8 +10,12 @@ footer:  CC BY 4.0 | 2020 - Goulven CLEC'H
 
 ## Dossiers
 
-Ici vous trouverez les [dossiers](/dossiers/) résumant les sujets les plus importants.
+::: warning C'est vide...
+Aucun dossier n'a été publié pour le moment. N'hésitez pas à [contribuer](/contribuer/) !
+:::
 
 ## Articles
 
-Ici vous trouverez des [ressources suplémentaires](/articles/) explicitant certains sujets ou répondant à des problématiques d'actualités.
+::: warning C'est vide...
+Aucun article n'a été publié pour le moment. N'hésitez pas à [contribuer](/contribuer/) !
+:::

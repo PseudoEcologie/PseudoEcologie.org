@@ -26,21 +26,16 @@ module.exports = {
             title: '2020',
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
-            children: [
-              '/articles/article-exemple.html',
-            ]
+            children: []
           },
         ],
         '/dossiers/': [
           {
-            title: 'Dossiers',
+            title: 'Tout les dossiers',
             path: '/dossiers/',
             collapsable: false,
             // Utiliser l'adresse complète, et non le permalink.
-            children: [
-              '/dossiers/dossier-exemple.html',
-              '/dossiers/dossier-exemple1.html',
-            ]
+            children: []
           },
         ],
         '/data/': [
@@ -88,5 +83,10 @@ module.exports = {
       ['@vuepress/search', {
         searchMaxSuggestions: 10
       }]
-    ]
+    ],
+    markdown: {
+      extendMarkdown: md => {
+        md.use(require("markdown-it-footnote"));
+        }
+      }
   }
