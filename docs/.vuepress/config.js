@@ -35,7 +35,9 @@ module.exports = {
             path: '/dossiers/',
             collapsable: false,
             // Utiliser l'adresse complète, et non le permalink.
-            children: []
+            children: [
+              '/dossiers/1-energie.html'
+            ]
           },
         ],
         '/data/': [
