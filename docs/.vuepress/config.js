@@ -51,6 +51,7 @@ module.exports = {
             collapsable: true,
             // Utiliser l'adresse complète, et non le permalink.
             children: [
+              '/data/monde/consommation-energie.html',
               '/data/monde/emission-ges.html',
               '/data/monde/production-electricite.html',
               '/data/monde/production-energie.html',

@@ -28,7 +28,7 @@ Ce qui fait tout l'enjeu de l'énergie, c'est que l'utilisation de celle-ci est 
 
 En effet, la seule énergie utilisable par l'homme à d'abord été celle de ses propres muscles ainsi que la chaleur du soleil, suivie de celle de la biomasse naturelle (bois avec la maitrise du feu, animale avec l'élevage) puis des autres énergies renouvelables (moulin d'eau et de vent). Mais le véritable bouleversement fût la découverte et la maitrise des énergies fossiles thermiques, telle que le charbon et le pétrole, qui de par leur pilotabilité, leur forte concentration énergétique et leur abondance, ont permis la [révolution industrielle](https://fr.wikipedia.org/wiki/R%C3%A9volution_industrielle).
 
-**[CONSOMMATION D'ENERGIE SERIE LONGUE, [source](https://ourworldindata.org/energy#how-much-energy-does-the-world-consume)]**
+<Monde-ConsEner-Sources />
 
 Sans énergie abondante et peu chère : pas de révolution démographique, la majorité de la population travaillerait encore dans les champs, pas de confort moderne (chauffage, eau chaude, électroménager, transport, accès au soin, à la télécommunication, etc) et pas d'industrialisation puis de tertiarisation de l'économie.
 

@@ -9,6 +9,7 @@ N'hésitez pas à réutiliser ces graphiques pour vos propres projets, ou à nou
 ## Index
 
 * Monde
+  * [Consommation d'énergie](/data/monde/consommation-energie.html)
   * [Emissions de GES](/data/monde/emission-ges.html)
   * [Production d'electricité](/data/monde/production-electricite.html)
   * [Production d'énergie](/data/monde/production-energie.html)
