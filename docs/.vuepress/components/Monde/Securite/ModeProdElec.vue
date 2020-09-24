@@ -61,7 +61,7 @@
             {
               scaleLabel: {
                 display: true,
-                labelString: `grammes d'équivalent CO2 par kWh`,
+                labelString: `Décés par TWh`,
               },
               ticks: {
                 beginAtZero: true,
@@ -69,6 +69,14 @@
             },
           ],
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return tooltipItems.value + ' décès par TWh';
+                }
+            }
+
+        }
       }"
     />
     <details>

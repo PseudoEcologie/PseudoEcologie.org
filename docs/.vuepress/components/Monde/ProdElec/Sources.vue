@@ -57,7 +57,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'électricité par source','(gWh par année, monde, IEA, 1990-2017)'],
+          text: ['Production d\'électricité par source','(GWh par année, monde, IEA, 1990-2017)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -74,6 +74,14 @@
             },
           }]
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return data.datasets[tooltipItems.datasetIndex].label +': ' + tooltipItems.yLabel + ' GWh';
+                }
+            }
+
+        }
       }"
     />
     <details>
@@ -81,7 +89,7 @@
         International Energy Agency
       </a>. Energy topic: Energy supply. Indicator: Electricity generation by source. Country or region: World. </p>
       <p><strong>Description:</strong>
-        graphique représentant la quantité d'électricité produite (exprimée en gigawatt heure) par source d'énergie (ayant une part significative) dans le monde, par année entre 1990 et 2017. Les données sont rangées par ordre croissant de haut en bas.
+        graphique représentant la quantité d'électricité produite (exprimée en gigawatt-heure) par source d'énergie (ayant une part significative) dans le monde, par année entre 1990 et 2017. Les données sont rangées par ordre croissant de haut en bas.
       </p>
     </details>
   </div>

@@ -47,7 +47,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Emissions de GES par kWh produit','(geCO2/kWh par moyen, médiane mondiale, GIEC, 2014)'],
+          text: ['Emissions de GES par kWh produit','(g eqCO2/kWh par moyen, médiane mondiale, GIEC, 2014)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -67,6 +67,14 @@
             },
           ],
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return tooltipItems.value + 'g eqCO2/kWh';
+                }
+            }
+
+        }
       }"
     />
     <details>
@@ -77,7 +85,7 @@ Change [Edenhofer, O., R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K. S
 Eickemeier, B. Kriemann, J. Savolainen, S. Schlömer, C. von Stechow, T. Zwickel and J.C. Minx (eds.)]. Cambridge University
 Press, Cambridge, United Kingdom and New York, NY, USA.</a> Page 1335.</p>
     <p><strong>Description:</strong> 
-      graphique en barres horizontales représentant les émissions de gaz à effets de serre (exprimées en grammes d'équivalent CO2) par moyen de production d'électricité (ayant une part significative). Les données sont les médianes mondiales, rangées par ordre décroissant de haut en bas. 
+      graphique en barres horizontales représentant les émissions de gaz à effets de serre (exprimées en grammes d'équivalent CO2 par kWh) par moyen de production d'électricité (ayant une part significative). Les données sont les médianes mondiales, rangées par ordre décroissant de haut en bas. 
     </p>
     </details>
   </div>

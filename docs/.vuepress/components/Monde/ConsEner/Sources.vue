@@ -51,7 +51,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Consommation d\'énergie par source (série longue)','(Terrawatt heure, monde, Vaclav Smil & BP, 1800-2019)'],
+          text: ['Consommation d\'énergie par source (série longue)','(TWh, monde, Vaclav Smil & BP, 1800-2019)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -80,6 +80,14 @@
             },
           }]
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return data.datasets[tooltipItems.datasetIndex].label +': ' + tooltipItems.yLabel + ' TWh';
+                }
+            }
+
+        }
       }"
     />
     <details>
@@ -89,7 +97,7 @@
         BP Statistical Review of World Energy
       </a>.</p>
       <p><strong>Description:</strong>
-        graphique représentant la quantité d'énergie consommée (exprimée en terrawatt heure) par source d'énergie (ayant une part significative) dans le monde, entre 1800 et 2019. Les données sont rangées par ordre décroissant de haut en bas, excepté la biomasse traditionelle placée en bas du graphique.
+        graphique représentant la quantité d'énergie consommée (exprimée en térrawatt-heure) par source d'énergie (ayant une part significative) dans le monde, entre 1800 et 2019. Les données sont rangées par ordre décroissant de haut en bas, excepté la biomasse traditionelle placée en bas du graphique.
       </p>
       <p><strong>Note:</strong>
         les données de 1800 à 1960 sont décénales, les données de 1965 à 2019 sont annuelles.

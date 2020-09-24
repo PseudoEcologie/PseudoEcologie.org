@@ -51,7 +51,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'énergie par source','(kT équivalent pétrole par année, monde, IEA, 1990-2017)'],
+          text: ['Production d\'énergie par source','(ktep, monde, IEA, 1990-2017)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -68,6 +68,14 @@
             },
           }]
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return data.datasets[tooltipItems.datasetIndex].label +': ' + tooltipItems.yLabel + ' ktep';
+                }
+            }
+
+        }
       }"
     />
     <details>

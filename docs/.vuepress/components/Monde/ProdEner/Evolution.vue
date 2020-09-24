@@ -38,7 +38,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Evolution de la production d\'énergie par source','(kT équivalent pétrole, monde, IEA, 1990 vs 2017)'],
+          text: ['Evolution de la production d\'énergie par source','(ktep, monde, IEA, 1990 vs 2017)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -58,6 +58,14 @@
             },
           ],
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return tooltipItems.yLabel + ' ktep';
+                }
+            }
+
+        }
       }"
     />
     <details>

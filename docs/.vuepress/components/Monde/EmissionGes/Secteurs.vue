@@ -5,6 +5,7 @@
           labels: ['industrie énergie','industrie','Résidentiel/tertiaire','Agriculture/sylviculture','Transports'],
           datasets: [{
               data: [11,32,18.4,24.8,14.3],
+              labels: ['industrie énergie','industrie','Résidentiel/tertiaire','Agriculture/sylviculture','Transports'],
               backgroundColor: ['#6C6F93', '#2E303E','#B877DB','#27D796','#F43E5C'],
             },
         ],
@@ -20,6 +21,15 @@
           display: true,
           position: 'bottom',
         },
+        tooltips: {
+            callbacks: {
+              label: function(tooltipItem, data) {
+                var label = data.datasets[tooltipItem.datasetIndex].labels[tooltipItem.index];
+                var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+                return label + ': ' + value + '%';
+              }
+            }
+        }
       }"
     />
     <details>
