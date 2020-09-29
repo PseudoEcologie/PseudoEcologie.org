@@ -51,7 +51,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Consommation d\'énergie par source (série longue)','(TWh, monde, Vaclav Smil & BP, 1800-2019)'],
+          text: ['Consommation d\'énergie par source (série longue)','(TWh par année, monde, Vaclav Smil & BP, 1800-2019)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,

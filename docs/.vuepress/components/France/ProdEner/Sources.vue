@@ -45,7 +45,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'énergie par source','(kT équivalent pétrole par année, France, IEA, 1990-2017)'],
+          text: ['Production d\'énergie par source','(ktep par année, France, IEA, 1990-2017)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -58,10 +58,18 @@
             stacked: true,
             scaleLabel: {
                 display: true,
-                labelString: `gigawatt heure`,
+                labelString: `kilotonnes équivalent pétrole`,
             },
           }]
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return tooltipItems.value + ' ktep';
+                }
+            }
+
+        }
       }"
     />
     <details>

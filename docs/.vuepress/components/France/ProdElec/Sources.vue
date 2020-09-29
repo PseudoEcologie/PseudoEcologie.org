@@ -45,7 +45,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'électricité par source','(gWh par année, France, IEA, 1990-2018)'],
+          text: ['Production d\'électricité par source','(GWh par année, France, IEA, 1990-2018)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -62,6 +62,14 @@
             },
           }]
         },
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItems, data) {
+                    return tooltipItems.value + ' GWh';
+                }
+            }
+
+        }
       }"
     />
     <details>

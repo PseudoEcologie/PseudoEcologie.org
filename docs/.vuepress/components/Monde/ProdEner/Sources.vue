@@ -51,7 +51,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'énergie par source','(ktep, monde, IEA, 1990-2017)'],
+          text: ['Production d\'énergie par source','(ktep par année, monde, IEA, 1990-2017)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
