@@ -7,3 +7,7 @@ Graphique en cours de réalisation. Seules les données quinquénales de 1990 à
 :::
 
 <Monde-ProdElec-Sources />
+
+## Matériaux par moyen
+
+<Monde-ProdElec-Materiaux />
