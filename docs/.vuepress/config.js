@@ -55,6 +55,7 @@ module.exports = {
               '/data/monde/emission-ges.html',
               '/data/monde/production-electricite.html',
               '/data/monde/production-energie.html',
+              '/data/monde/secteur-numerique.html',
             ]
           },
           {
@@ -65,6 +66,7 @@ module.exports = {
               '/data/france/emission-ges.html',
               '/data/france/production-electricite.html',
               '/data/france/production-energie.html',
+              '/data/france/secteur-numerique.html',
             ]
           },
         ],

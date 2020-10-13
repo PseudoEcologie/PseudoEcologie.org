@@ -185,8 +185,8 @@
             mode: 'index',
             intersect: false,
             callbacks: {
-                label: function(tooltipItems, data) {
-                    return tooltipItems.value + ' t ' + data.datasets[tooltipItems.datasetIndex].label;
+                label: function(tooltipItems, data) { 
+                  return tooltipItems.value == 0 ? null : tooltipItems.value + ' t ' + data.datasets[tooltipItems.datasetIndex].label;
                 }
             }
 

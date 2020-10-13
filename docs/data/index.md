@@ -13,8 +13,9 @@ N'hésitez pas à réutiliser ces graphiques pour vos propres projets, ou à nou
   * [Emissions de GES](/data/monde/emission-ges.html)
   * [Production d'electricité](/data/monde/production-electricite.html)
   * [Production d'énergie](/data/monde/production-energie.html)
-  * [Sécurité et mortalité](/data/monde/securite.html)
+  * [Secteur - Numérique](/data/monde/secteur-numerique.html)
 * France
   * [Emissions de GES](/data/france/emission-ges.html)
   * [Production d'électricité](/data/france/production-electricite.html)
   * [Production d'énergie](/data/france/production-energie.html)
+  * [Secteur - Numérique](/data/france/secteur-numerique.html)
