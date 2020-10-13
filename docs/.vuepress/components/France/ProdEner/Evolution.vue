@@ -59,12 +59,12 @@
           ],
         },
         tooltips: {
-            callbacks: {
-                label: function(tooltipItems, data) {
-                    return tooltipItems.yLabel + ' ktep';
-                }
-            }
-
+          intersect: false,
+          callbacks: {
+              label: function(tooltipItems, data) {
+                  return tooltipItems.yLabel + ' ktep';
+              }
+          }
         }
       }"
     />

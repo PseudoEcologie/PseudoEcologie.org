@@ -13,7 +13,6 @@
           ],
         datasets: [
           {
-            barThickness: 25,
             backgroundColor:  [
               '#6C6F93', // charbon
               '#E95678', // gaz
@@ -59,12 +58,12 @@
           ],
         },
         tooltips: {
-            callbacks: {
-                label: function(tooltipItems, data) {
-                    return tooltipItems.yLabel + ' ktep';
-                }
-            }
-
+          intersect: false,
+          callbacks: {
+              label: function(tooltipItems, data) {
+                  return tooltipItems.yLabel + ' ktep';
+              }
+          }
         }
       }"
     />

@@ -183,6 +183,7 @@
         },
         tooltips: {
             mode: 'index',
+            intersect: false,
             callbacks: {
                 label: function(tooltipItems, data) {
                     return tooltipItems.value + ' t ' + data.datasets[tooltipItems.datasetIndex].label;

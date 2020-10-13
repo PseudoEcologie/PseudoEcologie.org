@@ -12,6 +12,10 @@ Graphique en cours de réalisation. Seules les données quinquénales de 1990 à
 
 <Monde-ProdElec-EmissionGES />
 
+## Empreinte au sol par moyen
+
+<Monde-ProdElec-EmpreinteSol />
+
 ## Matériaux utilisés par moyen
 
 <Monde-ProdElec-Materiaux />

@@ -68,6 +68,7 @@
           ],
         },
         tooltips: {
+            intersect: false,
             callbacks: {
                 label: function(tooltipItems, data) {
                     return tooltipItems.value + 'g eqCO2/kWh';

@@ -70,12 +70,12 @@
           ],
         },
         tooltips: {
-            callbacks: {
-                label: function(tooltipItems, data) {
-                    return tooltipItems.value + ' décès par TWh';
-                }
-            }
-
+          intersect: false,
+          callbacks: {
+              label: function(tooltipItems, data) {
+                  return tooltipItems.value + ' décès par TWh';
+              }
+          }
         }
       }"
     />
