@@ -55,7 +55,6 @@ module.exports = {
               '/data/monde/emission-ges.html',
               '/data/monde/production-electricite.html',
               '/data/monde/production-energie.html',
-              '/data/monde/securite.html',
             ]
           },
           {

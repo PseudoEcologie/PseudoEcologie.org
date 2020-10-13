@@ -8,6 +8,14 @@ Graphique en cours de réalisation. Seules les données quinquénales de 1990 à
 
 <Monde-ProdElec-Sources />
 
-## Matériaux par moyen
+## Emission de GES par moyen
+
+<Monde-ProdElec-EmissionGES />
+
+## Matériaux utilisés par moyen
 
 <Monde-ProdElec-Materiaux />
+
+## Mortalité par moyen
+
+<Monde-ProdElec-Mortalite />

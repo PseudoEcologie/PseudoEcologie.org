@@ -126,7 +126,7 @@
             ]
           },
           {
-            label: 'Silicon',
+            label: 'Silicone',
             backgroundColor: '#EE64AE',
             data: [
               57, // Photovoltaïque 
@@ -158,7 +158,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Matériaux utilisés par TWh produit','(par moyen, monde, ministère de l\'énergie américain, 2015)'],
+          text: ['Matériaux utilisés par TWh produit','(tonnes par moyen, ministère de l\'énergie américain, 2015)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -182,9 +182,10 @@
           ],
         },
         tooltips: {
+            mode: 'index',
             callbacks: {
                 label: function(tooltipItems, data) {
-                    return tooltipItems.value + ' tonnes';
+                    return tooltipItems.value + ' t ' + data.datasets[tooltipItems.datasetIndex].label;
                 }
             }
 
