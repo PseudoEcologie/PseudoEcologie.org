@@ -1,5 +1,5 @@
 # Secteur - Numérique
 
-## par source
+## Emissions de GES
 
 <Monde-Numerique-Emissions />
