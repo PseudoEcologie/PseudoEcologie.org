@@ -91,13 +91,13 @@
       }"
     />
     <details>
-      <p><strong>Source:</strong> compilation de <a rel="noopener noreferrer" target="_blank" href="https://ourworldindata.org/">OurWorldInData</a>, a partir des sources <a rel="noopener noreferrer" target="_blank" href="http://vaclavsmil.com/2016/12/14/energy-transitions-global-and-national-perspectives-second-expanded-and-updated-edition/">
+      <p><strong>Source:</strong> compilation de <a rel="noopener noreferrer" target="_blank" href="https://ourworldindata.org/">OurWorldInData</a>, à partir des sources <a rel="noopener noreferrer" target="_blank" href="http://vaclavsmil.com/2016/12/14/energy-transitions-global-and-national-perspectives-second-expanded-and-updated-edition/">
         Vaclav Smil (2017). Energy Transitions: Global and National Perspectives
       </a> et <a rel="noopener noreferrer" target="_blank" href="https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html">
         BP Statistical Review of World Energy
       </a>.</p>
       <p><strong>Description:</strong>
-        graphique représentant la quantité d'énergie consommée (exprimée en térrawatt-heure) par source d'énergie (ayant une part significative) dans le monde, entre 1800 et 2019. Les données sont rangées par ordre décroissant de haut en bas, excepté la biomasse traditionelle placée en bas du graphique.
+        graphique représentant la quantité d'énergie consommée (exprimée en térrawatt-heure) par source d'énergie (ayant une part significative) dans le monde, entre 1800 et 2019. Les données sont rangées par ordre croissant de haut en bas, excepté la biomasse traditionelle placée en bas du graphique.
       </p>
       <p><strong>Note:</strong>
         les données de 1800 à 1960 sont décénales, les données de 1965 à 2019 sont annuelles.
