@@ -76,7 +76,7 @@
             stacked: true,
             scaleLabel: {
                 display: true,
-                labelString: `terrawatt heure`,
+                labelString: `terrawatt-heure`,
             },
           }]
         },
