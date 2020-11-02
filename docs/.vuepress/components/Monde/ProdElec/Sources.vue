@@ -17,7 +17,7 @@
               fill: '-1'
             },{ 
               data: [1979.77,2006.57,2033.71,2098.72,2087.57,2158.91,2209.41,2209.07,2341.24,2356.88,2485.63,2520.50,2566.14,2586.94,2605.68,2651.96,2583.89,2631.85,2627.60,2820.74,2916.35,3027.67,3079.34,3257.39,3252.50,3435.83,3501.07,3649.72,3814.04,3894.18,3884.62,4012.95,4065.87,4171.40,4222.21],
-              label: 'Hydraulique',
+              label: 'Hydroélectrique',
               borderColor: '#59E3E3',
               backgroundColor: 'rgb(89, 227, 227, 0.9)',
               fill: '-1'
@@ -57,7 +57,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'électricité par source','(TWh par année, monde, IEA, 1990-2017)'],
+          text: ['Production d\'électricité par source','(TWh par année, monde, BP & Ember, 1985-2019)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -97,9 +97,13 @@
       }"
     />
     <details>
-      <p><strong>Source:</strong> <a rel="noopener noreferrer" target="_blank" href="https://www.iea.org/data-and-statistics">
-        International Energy Agency
-      </a>. Energy topic: Energy supply. Indicator: Electricity generation by source. Country or region: World. </p>
+      <p><strong>Source:</strong> compilation de <a rel="noopener noreferrer" target="_blank" href="https://ourworldindata.org/grapher/electricity-production-by-source?time=earliest..latest">OurWorldInData</a>
+      , à partir des sources 
+      <a rel="noopener noreferrer" target="_blank" href="https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html">
+        BP Statistical Review of World Energy
+      </a> et <a rel="noopener noreferrer" target="_blank" href="https://ember-climate.org/data/">
+        Ember Climate
+      </a>.</p>
       <p><strong>Description:</strong>
         graphique représentant la quantité d'électricité produite (exprimée en terrawatt-heure) par source d'énergie (ayant une part significative) dans le monde, par année entre 1985 et 2019. Les données sont rangées par ordre croissant de haut en bas.
       </p>
