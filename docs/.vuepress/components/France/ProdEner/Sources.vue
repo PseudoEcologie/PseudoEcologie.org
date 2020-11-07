@@ -2,42 +2,54 @@
   <div>
     <LineChart
       :chartData="{
-          labels: [1990,1995, 2000, 2005, 2010, 2015],
-          datasets: [{ 
-              data: [81837,98291,108174,117650,111655,113976],
-              label: 'Nucléaire',
-              borderColor: '#29D398',
-              backgroundColor: 'rgb(41, 211, 152, 0.9)',
-              fill: true
-            },{ 
-              data: [84030,81367,82221,88227,77021,74790],
+          labels: ['1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019'],
+              datasets: [{ 
+              data: [637.30,683.12,784.79,850.43,982.67,1116.33,1216.75,1350.96,1506.03,1430.99,1307.88,1414.78,1358.82,1416.05,1408.64,1309.01,1181.74,1094.40,1068.17,1029.91,1012.84,1033.27,1040.28,1034.02,1061.67,1077.65,1141.23,1139.47,1098.21,1062.04,1070.70,1093.08,1101.11,1141.11,1157.17,1138.98,1144.57,1112.98,1114.92,1124.85,1109.28,1106.11,1078.22,1057.44,1015.34,980.46,959.82,927.80,915.61,885.23,885.70,879.69,882.90,880.22,874.83],
               label: 'Pétrole',
               borderColor: '#2E303E',
               backgroundColor: 'rgb(46, 48, 62, 0.9)',
               fill: true
             },{ 
-              data: [26032,29577,35766,41025,42618,35040],
+              data: [50.05,52.80,60.34,72.16,83.85,95.53,113.23,133.89,157.04,163.96,182.87,196.45,205.09,218.78,242.38,251.72,255.72,245.77,261.80,266.99,285.79,287.42,290.82,289.36,283.15,302.75,331.67,330.99,338.52,323.15,343.98,380.15,364.47,388.60,396.21,415.96,436.68,435.94,457.27,466.93,477.13,460.81,447.61,463.86,447.31,495.64,430.19,444.44,451.43,379.08,407.52,445.30,447.66,427.12,434.35],
               label: 'Gaz',
               borderColor: '#E95678',
               backgroundColor: 'rgb(233, 86, 120, 0.9)',
               fill: '-1'
             },{ 
-              data: [20054,15897,14886,14155,11962,9327],
+              data: [0.90,1.40,2.08,3.09,3.60,5.71,9.33,14.59,14.75,14.71,18.25,15.78,17.94,30.45,39.96,61.25,105.33,108.92,144.26,191.23,224.10,254.16,265.52,275.52,303.93,314.08,331.34,338.45,368.19,359.98,377.23,397.34,395.48,387.99,394.24,415.16,421.08,436.76,441.07,448.24,451.53,450.19,439.73,439.45,409.74,428.52,442.39,425.41,423.69,436.48,437.43,403.20,398.36,413.85,399.44],
+              label: 'Nucléaire',
+              borderColor: '#29D398',
+              backgroundColor: 'rgb(41, 211, 152, 0.9)',
+              fill: '-1'
+            },{ 
+              data: [481.14,445.81,440.04,423.16,423.60,403.17,369.44,328.61,325.04,329.01,288.44,339.13,326.63,340.78,370.10,362.36,330.29,337.74,305.64,292.26,283.66,234.46,213.41,208.41,226.90,220.85,235.04,207.25,169.33,166.54,170.50,181.66,159.10,189.22,169.45,164.76,144.19,148.61,157.98,150.39,156.18,144.32,149.41,140.41,125.03,133.87,113.61,128.70,134.49,100.45,97.50,94.88,107.81,97.48,74.92],
               label: 'Charbon',
               borderColor: '#6C6F93',
               backgroundColor: 'rgb(108, 111, 147, 0.9)',
               fill: '-1'
             },{ 
-              data: [4632,6287,5706,4426,5392,4768],
+              data: [46.88,52.21,45.38,50.42,52.94,56.68,48.86,48.83,47.70,56.23,60.11,48.56,76.32,68.36,66.42,69.53,72.20,70.57,69.44,65.69,62.45,63.01,71.09,77.12,46.84,53.87,57.60,68.96,64.90,78.79,73.12,66.04,63.76,62.09,72.51,66.36,74.27,60.40,58.94,59.56,51.48,56.30,57.60,63.65,56.99,62.71,44.79,58.67,70.72,62.83,54.44,60.04,49.22,63.93,58.52],
               label: 'Hydroélectrique',
               borderColor: '#59E3E3',
               backgroundColor: 'rgb(89, 227, 227, 0.9)',
               fill: '-1'
             },{ 
-              data: [178,201,195,339,1188,3005],
-              label: 'Eolien et solaire',
+              data: [0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0,0.00,0.00,0,0.00,0.01,0.01,0.02,0.04,0.05,0.13,0.27,0.39,0.60,0.96,2.18,4.07,5.69,7.91,9.95,12.05,14.91,16.03,17.25,21.25,21.40,24.32,28.08,34.48],
+              label: 'Eolien',
               borderColor: '#EE64AE',
               backgroundColor: 'rgb(238, 100, 174, 0.9)',
+              fill: '-1'
+            },{ 
+              data: [0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.02,0.04,0.17,0.62,2.08,4.02,4.74,5.91,7.26,8.16,9.16,10.32,11.73],
+              label: 'Photovoltaïque',
+              borderColor: '#FAB795',
+              backgroundColor: 'rgb(250, 183, 149, 0.9)',
+              fill: '-1'
+            },{ 
+              data: [0.00,0.39,0.61,0.93,1.07,1.37,1.39,1.52,1.55,1.58,1.42,1.33,1.37,1.42,1.48,1.47,1.49,1.53,1.56,1.62,1.65,1.66,1.75,1.77,1.84,1.91,2.10,2.13,1.97,2.16,2.33,2.42,2.68,2.65,2.85,2.99,3.33,3.54,3.72,3.78,3.87,3.84,4.22,4.44,4.58,4.92,5.48,5.39,5.39,5.82,6.45,7.64,7.99,8.52,8.70],
+              label: 'Autres renouvelables',
+              borderColor: '#F6661E',
+              backgroundColor: 'rgb(246, 102, 30, 0.9)',
               fill: '-1'
             },
         ],
@@ -45,7 +57,7 @@
       :options="{
         title: {
           display: true,
-          text: ['Production d\'énergie par source','(ktep par année, France, IEA, 1990-2017)'],
+          text: ['Production d\'énergie par source','(TWh par année, France, BP, 1965-2019)'],
           fontSize: 14,
         },
         maintainAspectRatio: false,
@@ -53,19 +65,31 @@
           display: true,
           position: 'bottom',
         },
+        elements: {
+          point: { radius: 0, hitRadius: 5, hoverRadius: 5 }
+        },
         scales: {
+          xAxes: [{
+            type: 'time',
+            distribution: 'linear',
+            ticks:{
+                display: true,
+                autoSkip: true,
+                maxTicksLimit: 15
+            }
+          }],
           yAxes: [{
             stacked: true,
             scaleLabel: {
                 display: true,
-                labelString: `kilotonnes équivalent pétrole`,
+                labelString: `terrawatt-heure`,
             },
           }]
         },
         tooltips: {
             callbacks: {
                 label: function(tooltipItems, data) {
-                    return tooltipItems.value + ' ktep';
+                    return data.datasets[tooltipItems.datasetIndex].label +': ' + tooltipItems.yLabel + ' TWh';
                 }
             }
 
@@ -73,11 +97,12 @@
       }"
     />
     <details>
-      <p><strong>Source:</strong> <a rel="noopener noreferrer" target="_blank" href="https://www.iea.org/data-and-statistics">
-        International Energy Agency
-      </a>. Energy topic: Energy supply. Indicator: Total primary energy supply (TPES) by source. Country or region: France. </p>
+      <p><strong>Source:</strong>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html">
+        BP Statistical Review of World Energy
+      </a>.</p>
       <p><strong>Description:</strong>
-        graphique représentant la quantité d'énergie produite (exprimée en kilotonnes équivalent pétrole) par source d'énergie (ayant une part significative) en France, par année entre 1990 et 2017. Les données sont rangées par ordre croissant de haut en bas.
+        graphique représentant la quantité d'énergie produite (exprimée en terrawatt-heure) par source d'énergie (ayant une part significative) en France, par année entre 1985 et 2019. Les données sont rangées par ordre croissant de haut en bas.
       </p>
     </details>
   </div>
